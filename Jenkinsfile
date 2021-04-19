@@ -5,7 +5,7 @@ pipeline {
  
  // tools {nodejs "nodejs"}
   parameters {
-        string(name: 'url', defaultValue: 'https://github.com/tapasmishraarc/springjavademo.git', description: 'My application url')
+        string(name: 'url', defaultValue: 'https://github.com/tapasmishraarc/springjavademo.git#main', description: 'My application url')
     }
   stages {
     stage('CI-Pipeline') {
