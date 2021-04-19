@@ -3,9 +3,9 @@
 pipeline {
   agent any
  
-  tools {nodejs "nodejs"}
+ // tools {nodejs "nodejs"}
   parameters {
-        string(name: 'url', defaultValue: 'https://github.com/tapasmishraarc/sample-nodejs.git', description: 'My application url')
+        string(name: 'url', defaultValue: 'https://github.com/tapasmishraarc/springjavademo.git', description: 'My application url')
     }
   stages {
     stage('CI-Pipeline') {
