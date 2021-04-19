@@ -1,7 +1,7 @@
 APP_NAME: 'test'
 MS_NAME: 'webapp'
 BRANCH: 'master'
-GIT_SOURCE_URL: 'https://github.com/tapasmishraarc/SpringbootdemoPOC.git'
+GIT_SOURCE_URL: 'https://github.com/tapasmishraarc/platform-shared-library.git'
 GIT_CREDENTIALS: 'SCR_CRED'
 SONAR_HOST_URL: 'https://github.com/tapasmishraarc/sample-nodejs.git'
 DOCKER_REGISTRY: 'artifactory.xxx.com'
