@@ -13,7 +13,7 @@ pipeline {
         script {
           
         //readProperties "${params.url}", this
-        echo "${env.APP_NAME}"
+      //  echo "${env.APP_NAME}"
          build  "${params.url}", this
         }
         
