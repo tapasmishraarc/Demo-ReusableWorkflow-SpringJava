@@ -1,1 +1,15 @@
+name: Main
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
+jobs:
+  build:
+    uses: tapasmishraarc/ReusableGitHubWorkflows/.github/workflows/build.yml@main
+    with:
+      dotnet-version: 5.0.x
+      project-path: src/DemoReusableTemplates.csproj
+      tech-type: java
+        
